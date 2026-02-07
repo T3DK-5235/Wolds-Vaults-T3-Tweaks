@@ -28,7 +28,6 @@ import xyz.iwolfking.woldsvaults.items.fruits.HastyPomegranteItem;
 import xyz.iwolfking.woldsvaults.items.fruits.PoltergeistPlum;
 import xyz.iwolfking.woldsvaults.items.fruits.WisdomFruitItem;
 import xyz.iwolfking.woldsvaults.items.gear.*;
-import xyz.iwolfking.woldsvaults.items.rings.*;
 
 import java.util.*;
 
@@ -105,13 +104,6 @@ public class ModItems {
 
 
     public static final AltarResetItem ALTAR_DECATALYZER;
-
-    //Angel Rings
-    public static final ChromaticIronAngelRing CHROMATIC_IRON_ANGEL_RING;
-    public static final ChromaticGoldAngelRing CHROMATIC_GOLD_ANGEL_RING;
-    public static final ChromaticSteelAngelRing CHROMATIC_STEEL_ANGEL_RING;
-    public static final BlackChromaticSteelAngelRing BLACK_CHROMATIC_STEEL_ANGEL_RING;
-    public static final PrismaticAngelRing PRISMATIC_ANGEL_RING;
 
     //Orbs
     public static final ExpertiseOrbItem EXPERTISE_ORB_ITEM;
@@ -254,11 +246,6 @@ public class ModItems {
         registry.register(ENDER_ARTIFACT);
         registry.register(ENDER_CRYSTAL);
         registry.register(ALTAR_DECATALYZER);
-        registry.register(CHROMATIC_IRON_ANGEL_RING);
-        registry.register(CHROMATIC_GOLD_ANGEL_RING);
-        registry.register(CHROMATIC_STEEL_ANGEL_RING);
-        registry.register(BLACK_CHROMATIC_STEEL_ANGEL_RING);
-        registry.register(PRISMATIC_ANGEL_RING);
         registry.register(EXPERTISE_ORB_ITEM);
         registry.register(SKILL_ORB_ITEM);
         registry.register(WOLD_EGG);
@@ -415,12 +402,6 @@ public class ModItems {
         ENDER_EYE = new BasicScavengerItem("enderman_eye");
 
         ALTAR_DECATALYZER = new AltarResetItem(WoldsVaults.id("altar_recatalyzer"), (new Item.Properties().tab(ModCreativeTabs.WOLDS_VAULTS).rarity(Rarity.RARE)));
-
-        CHROMATIC_IRON_ANGEL_RING = new ChromaticIronAngelRing();
-        CHROMATIC_GOLD_ANGEL_RING= new ChromaticGoldAngelRing();
-        CHROMATIC_STEEL_ANGEL_RING = new ChromaticSteelAngelRing();
-        BLACK_CHROMATIC_STEEL_ANGEL_RING = new BlackChromaticSteelAngelRing();
-        PRISMATIC_ANGEL_RING = new PrismaticAngelRing();
 
         EXPERTISE_ORB_ITEM = new ExpertiseOrbItem(WoldsVaults.id("expertise_orb"));
         SKILL_ORB_ITEM = new SkillOrbItem(WoldsVaults.id("skill_orb"));
