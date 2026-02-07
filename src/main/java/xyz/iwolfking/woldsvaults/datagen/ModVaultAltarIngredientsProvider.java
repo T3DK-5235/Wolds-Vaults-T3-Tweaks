@@ -1,6 +1,5 @@
 package xyz.iwolfking.woldsvaults.datagen;
 
-import com.alrex.parcool.api.Effects;
 import iskallia.vault.VaultMod;
 import iskallia.vault.gear.trinket.effects.AttributeTrinket;
 import iskallia.vault.gear.trinket.effects.PotionEffectTrinket;

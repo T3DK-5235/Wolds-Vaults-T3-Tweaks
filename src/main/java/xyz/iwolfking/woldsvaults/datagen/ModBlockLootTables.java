@@ -2,7 +2,6 @@ package xyz.iwolfking.woldsvaults.datagen;
 
 import com.google.common.collect.ImmutableSet;
 import com.google.common.collect.Sets;
-import com.hollingsworth.arsnouveau.setup.BlockRegistry;
 import net.minecraft.advancements.critereon.EnchantmentPredicate;
 import net.minecraft.advancements.critereon.ItemPredicate;
 import net.minecraft.advancements.critereon.MinMaxBounds;
