@@ -8,11 +8,6 @@ import java.util.List;
 public class WoldMixinCanceller implements MixinCanceller {
     @Override
     public boolean shouldCancel(List<String> list, String s) {
-        if(LoadingModList.get().getModFileById("ars_nouveau") != null) {
-            if(s.equals("com.hollingsworth.arsnouveau.common.mixin.elytra.ClientElytraMixin")) {
-                return true;
-            }
-        }
 
         if(LoadingModList.get().getModFileById("placebo") != null) {
             if(s.equals("shadows.placebo.mixin.ItemStackMixin")) {

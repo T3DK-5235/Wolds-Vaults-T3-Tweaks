@@ -80,13 +80,7 @@ public class ModSkillDescriptionsProvider extends AbstractSkillDescriptionsProvi
         );
 
         add("research_descriptions", builder ->
-                builder.addDescription("Ars Nouveau", jsonElements -> modDesc("Ars Nouveau", innerDesc -> {
-                    disabledInVaults().forEach(innerDesc::add);
-                    innerDesc.add(JsonDescription.simple("Ars Nouveau is a magic mod inspired by Ars Magicka that allows players to craft their own spells, create magical artifacts, perform rituals, and much more!\n\n", "$text"));
-                    innerDesc.add(JsonDescription.simple("Documentation is provided entirely in-game by Patchouli. To get started with this mod, craft the Worn Notebook using a book and 1 Lapis Lazuli.\n\n", "$text"));
-                }).forEach(jsonElements::add))
-
-                .addDescription("Augment Crafting", jsonElements -> modDesc("Augment Assembly Pedestal", "workstation", innerDesc -> {
+                builder.addDescription("Augment Crafting", jsonElements -> modDesc("Augment Assembly Pedestal", "workstation", innerDesc -> {
                     innerDesc.add(JsonDescription.simple("The Augment Assembly Pedestal will allow you to craft Augments using Augment Pieces and other materials, depending on the theme. \n\n", "$text"));
                     innerDesc.add(JsonDescription.simple("You first have to unlock a theme before you can craft it in the Assembly Pedestal. You will automatically do that the first time you enter a theme, you may have seen the messages pop up in chat! Certain themes that are not normally obtainable will be unlocked when doing certain tasks in the vault...", "$text"));
                 }).forEach(jsonElements::add))
@@ -118,10 +112,6 @@ public class ModSkillDescriptionsProvider extends AbstractSkillDescriptionsProvi
                     innerDesc.add(JsonDescription.simple("This mod provides you with the amazing power of computing! Conquer the world and improve your automation with this Lua-based machine!... or just have some fun messing around!", "$text"));
                 }).forEach(jsonElements::add))
 
-                .addDescription("Incorporeal", jsonElements -> modDesc("Incorporeal", innerDesc -> {
-                    innerDesc.add(JsonDescription.simple("This mod adds new ways of interacting with your Corporea system, some decorative blocks, and some other nifty and fun little things.", "$text"));
-                }).forEach(jsonElements::add))
-
                 .addDescription("RFTools Power", jsonElements -> modDesc("RFTools Power", innerDesc -> {
                     innerDesc.add(JsonDescription.simple("This mod generates power through a few different options using fuel.", "$text"));
                 }).forEach(jsonElements::add))
@@ -143,27 +133,11 @@ public class ModSkillDescriptionsProvider extends AbstractSkillDescriptionsProvi
                 })
 
                 .addDescription("Create Diesel Generators", jsonElements -> modDesc("Create Diesel Generators", innerDesc -> {
-                    innerDesc.add(JsonDescription.simple("This mod adds new blocks and items used to dig up oil from the ground using Pumpjacks. Useful for getting oil for PneumaticCraft or getting kinetic energy in a more interesting way!", "$text"));
-                }).forEach(jsonElements::add))
-
-                .addDescription("Create Ore Excavation", jsonElements -> modDesc("Create Ore Excavation", innerDesc -> {
-                    innerDesc.add(JsonDescription.simple("This mod adds drilling machines for fluids and ores, search for the randomly generated ore veins and generate ores to your hearts content!", "$text"));
-                }).forEach(jsonElements::add))
-
-                .addDescription("Create Mechanical Extruder", jsonElements -> modDesc("Create Mechanical Extruder", innerDesc -> {
-                    innerDesc.add(JsonDescription.simple("This mod adds a new block powered by kinetic energy that can be used to generate cobblestone, obsidian, and other stones. Very useful addition for automation!", "$text"));
-                }).forEach(jsonElements::add))
-
-                .addDescription("Compressed Creativity", jsonElements -> modDesc("Compressed Creativity", innerDesc -> {
-                    innerDesc.add(JsonDescription.simple("This mod adds some new blocks and items that add better integration between Create and PneumaticCraft, such as letting you convert air pressure into SU/RPM.", "$text"));
+                    innerDesc.add(JsonDescription.simple("This mod adds new blocks and items used to dig up oil from the ground using Pumpjacks. Useful for getting kinetic energy in a more interesting way!", "$text"));
                 }).forEach(jsonElements::add))
 
                 .addDescription("Immersive Engineering", jsonElements -> modDesc("Immersive Engineering", innerDesc -> {
                     innerDesc.add(JsonDescription.simple("This mod can both produce power, process ores and generate some resources. It uses big multistructures that all consume power (FE) to run.", "$text"));
-                }).forEach(jsonElements::add))
-
-                .addDescription("Dave's Potioneering", jsonElements -> modDesc("Dave's Potioneering", innerDesc -> {
-                    innerDesc.add(JsonDescription.simple("Dave's Potioneering is a mod that adds an upgraded Brewing Stand that's faster and has double potion output, a new Reinforced Cauldron that allows you to coat your weapons or tools with potion effects, and a Potioneer Gauntlet that can store up to 6 potion effects and apply them on attack.", "$text"));
                 }).forEach(jsonElements::add))
 
                 .addDescription("RFTools Utility", jsonElements -> modDesc("RFTools Utility", innerDesc -> {
@@ -176,11 +150,6 @@ public class ModSkillDescriptionsProvider extends AbstractSkillDescriptionsProvi
 
                 .addDescription("Functional Storage", jsonElements -> modDesc("Functional Storage", innerDesc -> {
                     innerDesc.add(JsonDescription.simple("Functional Storage is an alternative take on the storage solution of Storage Drawers, with an updated look and additional functionalities.", "$text"));
-                }).forEach(jsonElements::add))
-
-                .addDescription("Hexcasting", jsonElements -> modDesc("Hexcasting", innerDesc -> {
-                    innerDesc.add(disabledInVaults());
-                    innerDesc.add(JsonDescription.simple("This mod adds stack-based programmable spellcasting. Complicated mod, but you can do some cool stuff with it!", "$text"));
                 }).forEach(jsonElements::add))
 
                 .addDescription("LaserIO", jsonElements -> modDesc("LaserIO", innerDesc -> {
@@ -212,35 +181,6 @@ public class ModSkillDescriptionsProvider extends AbstractSkillDescriptionsProvi
                     innerDesc.add(JsonDescription.simple("This is a semi basic digital storage solution, that allows you to search items and store them on disk drives. It is far more limiting than it's similarities, Applied Energistics and Refined Storage, but is cheaper to manage early and mid game.", "$text"));
                 }).forEach(jsonElements::add))
 
-                .addDescription("Integrated Dynamics", jsonElements -> modDesc("Integrated Dynamics", innerDesc -> {
-                    innerDesc.add(JsonDescription.simple("This is a real bang for your buck buy right here, adding cables that you can move items, fluid, and energy with. A terminal you can connect to your storage solution.", "$text"));
-                    innerDesc.add(JsonDescription.simple("and a plethora of other features! This one takes some brain power to make the most use of as you'll need to work with variables and operators to get the most value out of", "$text"));
-                    innerDesc.add(JsonDescription.simple(" Integrated Dynamics", "yellow"));
-                    innerDesc.add(JsonDescription.simple(".", "$text"));
-                }).forEach(jsonElements::add))
-
-                .addDescription("Industrial Foregoing", jsonElements -> modDesc("Industrial Foregoing", innerDesc -> {
-                    innerDesc.add(JsonDescription.simple("This mod contains a ton of useful blocks, useful for mob farming and crop farming. Comes with it's own power solution and storage for items and fluids. Some features of the mod have been disabled such as the ", "$text"));
-                    innerDesc.add(JsonDescription.simple("Mob Duplicator, Infinity Hammer, Nuke, Launcher, and Backpack ", "gold"));
-                    innerDesc.add(JsonDescription.simple("have been ", "$text"));
-                    innerDesc.add(JsonDescription.simple("disabled", "red"));
-                    innerDesc.add(JsonDescription.simple("! ", "$text"));
-                }).forEach(jsonElements::add))
-
-                .addDescription("Occultism", jsonElements -> {
-                    modDesc("Occultism", innerDesc -> {
-                        disabledInVaults().forEach(innerDesc::add);
-                        innerDesc.add(JsonDescription.simple("Occultism is a mod inspired by the world of Jonathan Stroud's Bartimaeus. \nWith the help of occult rituals you will summon spirits, also known as demons, from \"The Other Place\" to aid you in your adventures.\n\n", "$text"));
-                        innerDesc.add(JsonDescription.simple("You can perform rituals to summon Familiars and Demons to help you. Mine random ores using a dimensional mineshaft, and crush ores to massively increase the value of them!", "$text"));
-                    }).forEach(jsonElements::add);;
-                })
-
-                .addDescription("Toms Simple Storage", jsonElements -> {
-                    modDesc("Toms Simple Storage", innerDesc -> {
-                        innerDesc.add(JsonDescription.simple("Tom's Simple Storage, is a mod that lets you connect up several inventories and browse their content from a central interface digitally, with a search function.\n\n", "$text"));
-                    }).forEach(jsonElements::add);;
-                })
-
                 .addDescription("Scanner", jsonElements -> {
                     modDesc("Scannable", innerDesc -> innerDesc.add(JsonDescription.simple("Which offers an FE powered device that can scan for entities, blocks, and in this pack, a special Vault Ores module! Consider it like Hunter in a device!", "$text"))).forEach(jsonElements::add);;
                 })
@@ -255,21 +195,10 @@ public class ModSkillDescriptionsProvider extends AbstractSkillDescriptionsProvi
                     }).forEach(jsonElements::add);;
                 })
 
-                .addDescription("PneumaticCraft", jsonElements -> {
-                    modDesc("PneumaticCraft", innerDesc -> {
-                        innerDesc.add(JsonDescription.simple("PneumaticCraft is a tech mod that is based around air pressure and heat. You can use PneumaticCraft as your mob farm system, plant harvesting, item transferring, and more!", "$text"));
-                        innerDesc.add(JsonDescription.simple("It also has some useful tools and armor, although some of the modules have been disabled!", "$text"));
-                    }).forEach(jsonElements::add);;
-                })
-
                 .addDescription("Time in a Bottle", jsonElements -> {
                    modDesc("Time in a Bottle", innerDesc -> {
                         disabledInVaults().forEach(innerDesc::add);
                         innerDesc.add(JsonDescription.simple("This mod adds an amazing item called the Time in a Bottle that stores time as you play, then you can right-click on a block to speed up its tick time using your stored time! Nifty!\n\n", "$text"));
-                        innerDesc.add(JsonDescription.simple("Also unlocks the ", "$text"));
-                        innerDesc.add(JsonDescription.simple("Weather Control ", "yellow"));
-                        innerDesc.add(JsonDescription.simple("mod! ", "$text"));
-                        innerDesc.add(JsonDescription.simple("Which lets you control the time of day and the weather!", "$text"));
                     }).forEach(jsonElements::add);
                 })
 
@@ -296,11 +225,6 @@ public class ModSkillDescriptionsProvider extends AbstractSkillDescriptionsProvi
                 .addDescription("Hostile Neural Networks", jsonElements -> modDesc("Hostile Neural Networks", innerDesc -> {
                     innerDesc.add(JsonDescription.simple("Hostile Neural Networks is a server-friendly mob looting system. Use a Data Model on a mob to make it's Model, then evolve your Data Model using Spawn Eggs of the corresponding type. Very powerful mod!\n\n", "$text"));
                     innerDesc.add(JsonDescription.simple("Note, HNN works differently in this pack! Your models won't upgrade in Simulation Chambers or gain data from kills, you need to evolve them using spawn eggs (Check JEI!)! Also needs power to work.", "$text"));
-                }).forEach(jsonElements::add))
-
-                .addDescription("Psi", jsonElements -> modDesc("Psi", innerDesc -> {
-                    disabledInVaults().forEach(innerDesc::add);
-                    innerDesc.add(JsonDescription.simple("Psi is a magical tech spell programming mod inspired by Mahouka Kokou no Rettousei. Don't worry if that doesn't make any sense. The core of Psi is a system where you can create action sequences (\\\"Spells\\\") to be executed in the world. This system is followed by a leveling system containing ingame documentation and tutorials of the various concepts and pieces you'll get. The mod makes use of basic mathematical concepts, such as Vectors in its systems, which allows for great flexibility on what spells can do.", "$text"));
                 }).forEach(jsonElements::add))
                 .build());
     }

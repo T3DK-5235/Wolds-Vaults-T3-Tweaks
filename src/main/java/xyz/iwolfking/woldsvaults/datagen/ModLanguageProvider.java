@@ -244,11 +244,6 @@ public class ModLanguageProvider extends LanguageProvider {
         add(ModItems.ALTAR_DECATALYZER, "Altar Recatalyzer");
         add("item.woldsvaults.expertise_orb", "Expertise Orb");
         add("item.woldsvaults.skill_orb", "Skill Orb");
-        add("item.woldsvaults.chromatic_iron_angel_ring", "Chromatic Iron Angel Ring");
-        add("item.woldsvaults.chromatic_gold_angel_ring", "Chromatic Gold Angel Ring");
-        add("item.woldsvaults.chromatic_steel_angel_ring", "Chromatic Steel Angel Ring");
-        add("item.woldsvaults.black_chromatic_steel_angel_ring", "Black Chromatic Steel Angel Ring");
-        add("item.woldsvaults.prismatic_angel_ring", "Prismatic Angel Ring");
         add("item.woldsvaults.crystal_seal_corrupt", "Seal of the Unknown");
         add("item.woldsvaults.ruined_essence", "Ruined Essence");
         add("item.woldsvaults.nullite_fragment", "Nullite Fragment");

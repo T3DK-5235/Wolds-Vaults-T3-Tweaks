@@ -98,24 +98,6 @@
         "color": "$text"
       }
     ],
-    "Create Ore Excavation": [
-      {
-        "text": "Unlocks the ",
-        "color": "$text"
-      },
-      {
-        "text": "Create Ore Excavation",
-        "color": "$yellow"
-      },
-      {
-        "text": " mod!\n\n",
-        "color": "$text"
-      },
-      {
-        "text": "This mod adds drilling machines for fluids and ores, search for the randomly generated ore veins and generate ores to your hearts content!",
-        "color": "$text"
-      }
-    ],
     "Functional Storage": [
       {
         "text": "Unlocks the ",
@@ -200,15 +182,7 @@
         "color": "$text"
       },
       {
-        "text": "Weather Control ",
-        "color": "yellow"
-      },
-      {
         "text": "mod! ",
-        "color": "$text"
-      },
-      {
-        "text": "Which lets you control the time of day and the weather!",
         "color": "$text"
       }
     ],
@@ -266,36 +240,6 @@
         "color": "$text"
       }
     ],
-    "Integrated Dynamics": [
-      {
-        "text": "Unlocks the ",
-        "color": "$text"
-      },
-      {
-        "text": "Integrated Dynamics",
-        "color": "$yellow"
-      },
-      {
-        "text": " mod!\n\n",
-        "color": "$text"
-      },
-      {
-        "text": "This is a real bang for your buck buy right here, adding cables that you can move items, fluid, and energy with. A terminal you can connect to your storage solution.",
-        "color": "$text"
-      },
-      {
-        "text": "and a plethora of other features! This one takes some brain power to make the most use of as you'll need to work with variables and operators to get the most value out of",
-        "color": "$text"
-      },
-      {
-        "text": " Integrated Dynamics",
-        "color": "yellow"
-      },
-      {
-        "text": ".",
-        "color": "$text"
-      }
-    ],
     "Botanical Machinery": [
       {
         "text": "Unlocks the ",
@@ -336,40 +280,6 @@
         "color": "$text"
       }
     ],
-    "Industrial Foregoing": [
-      {
-        "text": "Unlocks the ",
-        "color": "$text"
-      },
-      {
-        "text": "Industrial Foregoing",
-        "color": "$yellow"
-      },
-      {
-        "text": " mod!\n\n",
-        "color": "$text"
-      },
-      {
-        "text": "This mod contains a ton of useful blocks, useful for mob farming and crop farming. Comes with it's own power solution and storage for items and fluids. Some features of the mod have been disabled such as the ",
-        "color": "$text"
-      },
-      {
-        "text": "Mob Duplicator, Infinity Hammer, Nuke, Launcher, and Backpack ",
-        "color": "gold"
-      },
-      {
-        "text": "have been ",
-        "color": "$text"
-      },
-      {
-        "text": "disabled",
-        "color": "red"
-      },
-      {
-        "text": "! ",
-        "color": "$text"
-      }
-    ],
     "Mystical Agriculture": [
       {
         "text": "Unlocks the ",
@@ -389,36 +299,6 @@
       },
       {
         "text": "Items such as tools and armor are disabled!",
-        "color": "$text"
-      }
-    ],
-    "Ars Nouveau": [
-      {
-        "text": "Unlocks the ",
-        "color": "$text"
-      },
-      {
-        "text": "Ars Nouveau",
-        "color": "$yellow"
-      },
-      {
-        "text": " mod!\n\n",
-        "color": "$text"
-      },
-      {
-        "text": "⚠",
-        "color": "red"
-      },
-      {
-        "text": "Disabled In Vaults!\n\n",
-        "color": "dark_red"
-      },
-      {
-        "text": "Ars Nouveau is a magic mod inspired by Ars Magicka that allows players to craft their own spells, create magical artifacts, perform rituals, and much more!\n\n",
-        "color": "$text"
-      },
-      {
-        "text": "Documentation is provided entirely in-game by Patchouli. To get started with this mod, craft the Worn Notebook using a book and 1 Lapis Lazuli.\n\n",
         "color": "$text"
       }
     ],
@@ -462,54 +342,6 @@
         "color": "$text"
       }
     ],
-    "Toms Simple Storage": [
-      {
-        "text": "Unlocks the ",
-        "color": "$text"
-      },
-      {
-        "text": "Toms Simple Storage",
-        "color": "$yellow"
-      },
-      {
-        "text": " mod!\n\n",
-        "color": "$text"
-      },
-      {
-        "text": "Tom's Simple Storage, is a mod that lets you connect up several inventories and browse their content from a central interface digitally, with a search function.\n\n",
-        "color": "$text"
-      }
-    ],
-    "Occultism": [
-      {
-        "text": "Unlocks the ",
-        "color": "$text"
-      },
-      {
-        "text": "Occultism",
-        "color": "$yellow"
-      },
-      {
-        "text": " mod!\n\n",
-        "color": "$text"
-      },
-      {
-        "text": "⚠",
-        "color": "red"
-      },
-      {
-        "text": "Disabled In Vaults!\n\n",
-        "color": "dark_red"
-      },
-      {
-        "text": "Occultism is a mod inspired by the world of Jonathan Stroud's Bartimaeus. \nWith the help of occult rituals you will summon spirits, also known as demons, from \"The Other Place\" to aid you in your adventures.\n\n",
-        "color": "$text"
-      },
-      {
-        "text": "You can perform rituals to summon Familiars and Demons to help you. Mine random ores using a dimensional mineshaft, and crush ores to massively increase the value of them!",
-        "color": "$text"
-      }
-    ],
     "RFTools Storage": [
       {
         "text": "Unlocks the ",
@@ -525,28 +357,6 @@
       },
       {
         "text": "This is a semi basic digital storage solution, that allows you to search items and store them on disk drives. It is far more limiting than it's similarities, Applied Energistics and Refined Storage, but is cheaper to manage early and mid game.",
-        "color": "$text"
-      }
-    ],
-    "PneumaticCraft": [
-      {
-        "text": "Unlocks the ",
-        "color": "$text"
-      },
-      {
-        "text": "PneumaticCraft",
-        "color": "$yellow"
-      },
-      {
-        "text": " mod!\n\n",
-        "color": "$text"
-      },
-      {
-        "text": "PneumaticCraft is a tech mod that is based around air pressure and heat. You can use PneumaticCraft as your mob farm system, plant harvesting, item transferring, and more!",
-        "color": "$text"
-      },
-      {
-        "text": "It also has some useful tools and armor, although some of the modules have been disabled!",
         "color": "$text"
       }
     ],
@@ -642,60 +452,6 @@
         "color": "$text"
       }
     ],
-    "Hexcasting": [
-      {
-        "text": "Unlocks the ",
-        "color": "$text"
-      },
-      {
-        "text": "Hexcasting",
-        "color": "$yellow"
-      },
-      {
-        "text": " mod!\n\n",
-        "color": "$text"
-      },
-      [
-        {
-          "text": "⚠",
-          "color": "red"
-        },
-        {
-          "text": "Disabled In Vaults!\n\n",
-          "color": "dark_red"
-        }
-      ],
-      {
-        "text": "This mod adds stack-based programmable spellcasting. Complicated mod, but you can do some cool stuff with it!",
-        "color": "$text"
-      }
-    ],
-    "Psi": [
-      {
-        "text": "Unlocks the ",
-        "color": "$text"
-      },
-      {
-        "text": "Psi",
-        "color": "$yellow"
-      },
-      {
-        "text": " mod!\n\n",
-        "color": "$text"
-      },
-      {
-        "text": "⚠",
-        "color": "red"
-      },
-      {
-        "text": "Disabled In Vaults!\n\n",
-        "color": "dark_red"
-      },
-      {
-        "text": "Psi is a magical tech spell programming mod inspired by Mahouka Kokou no Rettousei. Don't worry if that doesn't make any sense. The core of Psi is a system where you can create action sequences (\\\"Spells\\\") to be executed in the world. This system is followed by a leveling system containing ingame documentation and tutorials of the various concepts and pieces you'll get. The mod makes use of basic mathematical concepts, such as Vectors in its systems, which allows for great flexibility on what spells can do.",
-        "color": "$text"
-      }
-    ],
     "Create Diesel Generators": [
       {
         "text": "Unlocks the ",
@@ -710,7 +466,7 @@
         "color": "$text"
       },
       {
-        "text": "This mod adds new blocks and items used to dig up oil from the ground using Pumpjacks. Useful for getting oil for PneumaticCraft or getting kinetic energy in a more interesting way!",
+        "text": "This mod adds new blocks and items used to dig up oil from the ground using Pumpjacks. Useful for getting kinetic energy in a more interesting way!",
         "color": "$text"
       }
     ],
@@ -732,24 +488,6 @@
         "color": "$text"
       }
     ],
-    "Incorporeal": [
-      {
-        "text": "Unlocks the ",
-        "color": "$text"
-      },
-      {
-        "text": "Incorporeal",
-        "color": "$yellow"
-      },
-      {
-        "text": " mod!\n\n",
-        "color": "$text"
-      },
-      {
-        "text": "This mod adds new ways of interacting with your Corporea system, some decorative blocks, and some other nifty and fun little things.",
-        "color": "$text"
-      }
-    ],
     "RFTools Utility": [
       {
         "text": "Unlocks the ",
@@ -765,60 +503,6 @@
       },
       {
         "text": "This mod provides you with some good infrastructural options and most importantly it supports wireless redstone signals using infinite different channels. Very useful for making your contraptions neater and more efficient.",
-        "color": "$text"
-      }
-    ],
-    "Create Mechanical Extruder": [
-      {
-        "text": "Unlocks the ",
-        "color": "$text"
-      },
-      {
-        "text": "Create Mechanical Extruder",
-        "color": "$yellow"
-      },
-      {
-        "text": " mod!\n\n",
-        "color": "$text"
-      },
-      {
-        "text": "This mod adds a new block powered by kinetic energy that can be used to generate cobblestone, obsidian, and other stones. Very useful addition for automation!",
-        "color": "$text"
-      }
-    ],
-    "Compressed Creativity": [
-      {
-        "text": "Unlocks the ",
-        "color": "$text"
-      },
-      {
-        "text": "Compressed Creativity",
-        "color": "$yellow"
-      },
-      {
-        "text": " mod!\n\n",
-        "color": "$text"
-      },
-      {
-        "text": "This mod adds some new blocks and items that add better integration between Create and PneumaticCraft, such as letting you convert air pressure into SU/RPM.",
-        "color": "$text"
-      }
-    ],
-    "Dave's Potioneering": [
-      {
-        "text": "Unlocks the ",
-        "color": "$text"
-      },
-      {
-        "text": "Dave's Potioneering",
-        "color": "$yellow"
-      },
-      {
-        "text": " mod!\n\n",
-        "color": "$text"
-      },
-      {
-        "text": "Dave's Potioneering is a mod that adds an upgraded Brewing Stand that's faster and has double potion output, a new Reinforced Cauldron that allows you to coat your weapons or tools with potion effects, and a Potioneer Gauntlet that can store up to 6 potion effects and apply them on attack.",
         "color": "$text"
       }
     ],

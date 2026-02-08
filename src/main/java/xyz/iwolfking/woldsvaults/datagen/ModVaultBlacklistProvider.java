@@ -16,8 +16,6 @@ public class ModVaultBlacklistProvider extends AbstractVaultBlacklistProvider {
     @Override
     public void registerConfigs() {
         add("wolds_blacklist", builder -> {
-           builder.blacklist("ars_nouveau:*");
-           builder.blacklist("occultism:*");
            builder.blacklist("peripherals:*");
            builder.blacklist("computercraft:*");
            builder.blacklist("advancedperipherals:*");
@@ -25,9 +23,6 @@ public class ModVaultBlacklistProvider extends AbstractVaultBlacklistProvider {
            builder.blacklist("travel_anchors:*");
            builder.blacklist("cabletiers:*");
            builder.blacklist("littlelogistics:*");
-           builder.blacklist("integratedterminals:*");
-           builder.blacklist("integrateddynamics:*");
-           builder.blacklist("integratedtunnels:*");
            builder.blacklist("megacells:*");
            builder.blacklist("extrastorage:*");
            builder.blacklist("ae2additions:*");
@@ -36,17 +31,13 @@ public class ModVaultBlacklistProvider extends AbstractVaultBlacklistProvider {
            builder.blacklist("appmek:*");
            builder.blacklist("laserio:*");
            builder.blacklist("sfm:*");
-           builder.blacklist("toms_storage:*");
            builder.blacklist("entangled:*");
            builder.blacklist("sophisticatedstorage:*");
            builder.blacklist("fluiddrawerslegacy:*");
            builder.blacklist("mysticalagriculture:*");
-           builder.blacklist("industrialforegoing:*");
-           builder.blacklist("pneumaticcraft:*");
            builder.blacklist("hostilenetworks:*");
            builder.blacklist("quarryplus:*");
            builder.blacklist("createaddition:*");
-           builder.blacklist("createoreexcavation:*");
            builder.blacklist("createdieselgenerators:*");
            builder.blacklist("refinedstorageaddons:*");
            builder.blacklist("bonsaitrees3:*");

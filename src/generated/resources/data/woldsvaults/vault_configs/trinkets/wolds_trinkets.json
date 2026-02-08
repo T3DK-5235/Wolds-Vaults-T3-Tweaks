@@ -36,21 +36,6 @@
         "curiosSlot": "blue_trinket"
       }
     },
-    "the_vault:running_shoes": {
-      "weight": 0,
-      "name": "Running Shoes",
-      "effectText": "Parkour uses no energy",
-      "color": 3304444,
-      "minUses": 20,
-      "maxUses": 30,
-      "minCraftedUses": 12,
-      "maxCraftedUses": 30,
-      "config": {
-        "effect": "parcool:inexhaustible",
-        "addedAmplifier": 1,
-        "curiosSlot": "blue_trinket"
-      }
-    },
     "the_vault:chromatic_diffuser": {
       "weight": 10,
       "name": "Chromatic Diffuser",

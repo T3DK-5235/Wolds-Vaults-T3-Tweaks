@@ -24,10 +24,6 @@
             "type": "constant"
           },
           {
-            "id": "Create Ore Excavation",
-            "type": "constant"
-          },
-          {
             "id": "Elevators",
             "type": "constant"
           },
@@ -52,10 +48,6 @@
             "type": "constant"
           },
           {
-            "id": "Integrated Dynamics",
-            "type": "constant"
-          },
-          {
             "id": "Bag Inception",
             "type": "constant"
           },
@@ -69,10 +61,6 @@
           },
           {
             "id": "Phytogenic Insulator",
-            "type": "constant"
-          },
-          {
-            "id": "Ars Nouveau",
             "type": "constant"
           },
           {
@@ -92,10 +80,6 @@
             "type": "constant"
           },
           {
-            "id": "PneumaticCraft",
-            "type": "constant"
-          },
-          {
             "id": "Misc Bag Upgrades",
             "type": "constant"
           },
@@ -104,15 +88,7 @@
             "type": "constant"
           },
           {
-            "id": "Hexcasting",
-            "type": "constant"
-          },
-          {
             "id": "Trashcans",
-            "type": "constant"
-          },
-          {
-            "id": "Psi",
             "type": "constant"
           },
           {
@@ -120,19 +96,7 @@
             "type": "constant"
           },
           {
-            "id": "Incorporeal",
-            "type": "constant"
-          },
-          {
             "id": "Stack Upgrading",
-            "type": "constant"
-          },
-          {
-            "id": "Dave's Potioneering",
-            "type": "constant"
-          },
-          {
-            "id": "Compressed Creativity",
             "type": "constant"
           },
           {
@@ -264,10 +228,6 @@
             "type": "constant"
           },
           {
-            "id": "Industrial Foregoing",
-            "type": "constant"
-          },
-          {
             "id": "Cagerium",
             "type": "constant"
           },
@@ -281,14 +241,6 @@
           },
           {
             "id": "Mod Box Tinkering",
-            "type": "constant"
-          },
-          {
-            "id": "Toms Simple Storage",
-            "type": "constant"
-          },
-          {
-            "id": "Occultism",
             "type": "constant"
           },
           {
@@ -317,10 +269,6 @@
           },
           {
             "id": "RFTools Utility",
-            "type": "constant"
-          },
-          {
-            "id": "Create Mechanical Extruder",
             "type": "constant"
           },
           {
